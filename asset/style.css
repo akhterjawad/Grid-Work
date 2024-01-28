@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+.container{
+    /* height: 100px; */
+    /* width: 100%; */
+    /* border: 1px solid black ; */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* align-content: center; */
+    
+    grid-template-areas: "pic1 pic2 pic2 pic3"
+                         "pic1 pic4 pic5 pic6"
+                         "pic1 pic7 pic8 pic6";
+
+}
+
+.box{
+ height: 200px;
+}
+#box-1{
+   grid-area: pic1;
+   /* border: 1px solid black; */
+   /* width: 500px; */
+   height: 620px;
+}
+#box-2{
+    grid-area: pic2; 
+    /* border: 1px solid black; */
+}
+#box-3{
+    grid-area: pic3;
+    /* border: 1px solid black; */
+}
+#box-4{
+    grid-area: pic4;
+    /* border: 1px solid black; */
+}
+#box-5{
+    grid-area: pic5;
+    /* border: 1px solid black; */
+}
+#box-6{
+    grid-area: pic6;
+    /* border: 1px solid black; */
+    height: 410px;
+}
+#box-7{
+    grid-area: pic7;
+    /* border: 1px solid black; */
+}
+#box-8{
+    grid-area: pic8;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+
+#box--1{
+   width: 285px;
+   height: 619px;
+}
+#box--2{
+    width: 806px;
+    height: 198px;
+}
+#box--3{
+    width: 249px;
+    height: 198px;
+}
+#box--4{
+    width: 397px;
+    height: 198px;
+}
+#box--5{
+    width: 397px;
+    height: 198px;
+}
+#box--6{
+    width: 249px;
+    height: 408px;
+}
+#box--7{
+    width: 397px;
+    height: 198px;
+}
+#box--8{
+    width: 397px;
+    height: 198px;
+}
